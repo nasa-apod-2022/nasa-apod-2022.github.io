@@ -54,6 +54,10 @@ const Content = () => {
             <div className="buttons flex justify-center items-center">
                 <img src={prev} className="w-4 cursor-pointer" onClick={prevdates} />  {date}  <img id ="nextimg" src={next} className="w-4 cursor-pointer hidden" onClick={nextdates} />
             </div>
+            <div className="foot flex flex-col text-center justify-center items-center text-xs p-10">
+            Developed By: <a href="https://apoorvsrivastava270.github.io">Apoorv Srivastava</a>
+            Project Idea: <a href="https://devsoc.club/">Developers' Society of BITS Goa</a>
+        </div>
         </div>
     );
     
