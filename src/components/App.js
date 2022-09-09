@@ -7,6 +7,7 @@ function App() {
     <div className="main flex flex-col items-center font-ChakraPetch text-blue-100 bg-back min-h-screen bg-cover">
       <Header />
       <Content />
+      <Footer />
     </div>
   );
 }
