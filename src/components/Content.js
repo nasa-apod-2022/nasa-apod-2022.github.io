@@ -42,7 +42,7 @@ const Content = () => {
         }
     }
     return(
-        <div className="w-3/4 bg-blue-100 bg-opacity-70 text-black p-5 rounded-xl">
+        <div className="w-full lg:w-3/4 bg-blue-100 bg-opacity-70 text-black p-5 rounded-xl">
             Explore the fascinating Universe we live in, with new pictures captured by sophisticated telescopes everyday! The picture has been explained by a professional Astronomer briefly.<br></br>
             <div className="flex flex-col justify-center items-center py-8">
                 <span className="text-xl font-bold">{title}</span>
